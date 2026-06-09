@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Precios</title>
+
+```
+<style>
+    body {
+        font-family: Arial;
+        margin: 0;
+        background: linear-gradient(to bottom, #caf0f8, #f4f9ff);
+    }
+
+    header {
+        background: #0077b6;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+
+    nav {
+        background: #023e8a;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #0077b6;
+        margin-bottom: 30px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+        transition: 0.3s;
+        position: relative;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.2);
+    }
+
+    .price {
+        font-size: 22px;
+        color: #0077b6;
+        margin: 15px 0;
+        font-weight: bold;
+    }
+
+    .badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: #00b4d8;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    .highlight {
+        border: 3px solid #00b4d8;
+        transform: scale(1.05);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    footer {
+        background: #023e8a;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>💰 Precios del Viaje</h1>
+    <p>Elegí la experiencia que mejor se adapte a vos</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="destinos.html">Destinos</a>
+    <a href="itinerario.html">Itinerario</a>
+    <a href="precios.html">Precios</a>
+</nav>
+
+<section>
+
+```
+<h2>Opciones disponibles</h2>
+
+<div class="grid">
+
+    <div class="card">
+        <div class="badge">Económico</div>
+        <h3>🏝️ Malvinas</h3>
+        <p class="price">USD 3.000 – 5.000</p>
+
+        <ul>
+            <li>✔️ 5 días</li>
+            <li>✔️ Fauna marina</li>
+            <li>✔️ Playas y acantilados</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="badge">Aventura</div>
+        <h3>❄️ Georgias del Sur</h3>
+        <p class="price">USD 12.000 – 20.000</p>
+
+        <ul>
+            <li>✔️ 10 días</li>
+            <li>✔️ Glaciares</li>
+            <li>✔️ Pingüinos rey</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="badge">Exclusivo</div>
+        <h3>🌋 Sándwich del Sur</h3>
+        <p class="price">USD 15.000 – 25.000</p>
+
+        <ul>
+            <li>✔️ 7 días</li>
+            <li>✔️ Volcanes</li>
+            <li>✔️ Zona remota</li>
+        </ul>
+    </div>
+
+    <div class="card highlight">
+        <div class="badge">Recomendado</div>
+        <h3>🌍 Paquete Completo</h3>
+        <p class="price">USD 19.000+</p>
+
+        <ul>
+            <li>✔️ 24 días</li>
+            <li>✔️ Todas las islas</li>
+            <li>✔️ Experiencia total</li>
+        </ul>
+    </div>
+
+</div>
+```
+
+</section>
+
+<footer>
+    <p>La mejor relación experiencia/precio: paquete completo</p>
+</footer>
+
+</body>
+</html>
